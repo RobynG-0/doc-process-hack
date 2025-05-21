@@ -228,7 +228,7 @@ resource aiCognitiveServicesDeployment 'Microsoft.CognitiveServices/accounts/dep
   properties: {
     model: {
       format: 'OpenAI'
-      name: 'gpt-4o'
+      name: 'gpt-4o-mini'
       version: '2024-08-06'
     }
   }
